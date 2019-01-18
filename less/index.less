@@ -1,0 +1,293 @@
+@import "base.less";
+
+// 头部
+
+
+// 首页
+#main {
+    position: relative;
+    // 导航
+    .navbar-default {
+        height: 48px;
+        .navbar-right {
+            float: right !important;
+            margin-right: -450px;
+        }
+    }
+    // <!-- 导栏区域 -->
+    #guide {
+        display: flex;
+        height: 363px;
+        .guide-left {
+            width: 320px;
+            background: rgba(51, 51, 51, 1);
+        }
+        .guide-right {
+            flex: 1;
+            height: 363px;
+            .carousel {
+                position: relative;
+                height: 363px;
+            }
+        }
+    }
+    // 查询区域
+    #inquiry {
+      .compute {
+        height: 45px;
+        border-bottom: 1px solid #E6E6E6;
+        // background-color: aquamarine;
+        margin-top: 45px;
+
+        .left-top {
+            width: 300px;
+            ul {
+                width: 300px;
+                height: 30px;
+                // border: 1px solid blue;
+                
+                border-bottom: 0;
+                margin: 0;
+                li {
+                    position: relative;
+                    border-bottom: 3px solid red;
+                    height: 28px;
+                    width: 90px;
+                    // height: 25px;
+                    line-height: 28px;
+                    list-style: none;
+                    float: left;
+                    padding-left: 15px;
+                    
+                    text-align: center;
+                    cursor: pointer;
+
+                    
+                    // padding-top: 12px;
+                    font-weight:bold;
+                    font-size: 17px;
+                    color: #2d2c2c;
+                }
+            }
+        }
+        .right-top {
+            float: right;
+            font-weight:bold;
+            font-size: 14px;
+            padding-top: 12px;
+            color: #808080;
+            padding-right: 15px;
+            span {
+                color: #ec7a0c;
+            }
+        }
+    }
+        .content{
+          // border-Radius: 0px;
+          border-radius: 0;
+          height: 37px;
+          width: 1140px;
+          margin-top: 30px;
+          
+          margin-left: 30px;
+          display: flex;
+          .form-group {
+            // border-Radius: 0px;
+            width: 796px;
+          }
+          .query{
+            button{
+              // border-Radius: 0px;
+              background-color: #ec7a0c;
+            }
+          }
+        }
+    }
+    // 服务精选
+    #serve{
+      background-color: red;
+      height: 555px;
+      .compute {
+        height: 45px;
+        border-bottom: 1px solid #E6E6E6;
+        // background-color: aquamarine;
+        margin-top: 45px;
+
+        .left-top {
+            ul {
+                li {
+                    list-style: none;
+                    float: left;
+
+                    padding-right: 15px;
+                    padding-top: 12px;
+                    font-weight:bold;
+                    font-size: 17px;
+                    color: #2d2c2c;
+                }
+            }
+        }
+        .right-top {
+            float: right;
+            font-weight:bold;
+            font-size: 14px;
+            padding-top: 12px;
+            color: #808080;
+            padding-right: 15px;
+            span {
+                color: #ec7a0c;
+            }
+        }
+    }
+      
+    }
+    // 多乐课堂
+    #classroom{
+      height: 700px;
+      .content{
+          margin-top: 60px;
+          .row{
+              .xo-se{
+                  a{
+                      display: block;
+                      .bigger{
+                        img{
+                            // padding-right: 28px;
+                            width: 100%;
+                            height: 431px;
+                        }
+                      }
+                      .ben{
+                          p{
+                              font-size: 16px;
+                              color: #4D4D4D;
+                              padding-top: 14px;
+                              margin-bottom: 8px;
+                          }
+                          span{
+                              color: #808080;
+                          }
+                      }
+                  }
+              }
+              .xo-xe{
+                  padding: 0;
+                  .row{
+                      margin: 0;
+                      .col-xs-6{
+                        .tabld{
+                            a{
+                                display: block;
+                                img{
+                                    width: 100%;
+                                    height: 170px;
+                                }
+                            }
+                        }
+                        // &:nth-child(2n+1){
+                        //     margin-top: 20px;
+                        //   }
+                      }
+                      
+                  }
+              }
+              
+          }
+      }
+    }
+    // 客户专区
+    #custom{
+        height: 785px;
+        background-color: red;
+        .slide{
+            margin-top: 60px;
+        }
+        .bottomd{
+            padding-top: 35px;
+            img{
+                width: 100%;
+                height: 300px;
+            }
+        }
+    }
+    // <!-- 服务优势专区 -->
+    #advantage{
+        width: 100%;
+        height: 464px;
+        background-color: yellow;
+        .title {
+            text-align: center;
+            padding-top: 50px;
+            span {
+                width: 122px;
+                height: 29px;
+                font-size: 30px;
+                // font-family: SimHei;
+           
+            color: rgba(51, 51, 51, 1);
+            }
+        }
+        .knowBod{
+            margin-top: 60px;
+           ul{
+            display: flex;
+            justify-content:space-around;;
+            li{
+                .cotn-top{
+                    img{
+                        border-radius: 50%;
+                        width: 108px;
+                        height: 108px;
+                    }
+                }
+                .cotn-botton{
+                    padding-top: 20px;
+                    font-size: 24px;
+                    color: #333333;
+                }
+            }
+           }
+        }
+
+    }
+    // 右浮窗
+    #floating{
+        
+        border-radius: 70px 70px 0 0;
+        width: 94px;
+        height: 168px;
+      
+        position: absolute;
+        background-color: #EC7A0C;
+        right: 0;
+        margin-right: -110px;
+        .case-top{
+            padding: 14px;
+            img{
+                width: 67px;
+                height: 67px;
+                border-radius: 50%;
+            }
+        }
+        .case-con{
+            text-align: center;
+            p{
+                font-size: 12px;
+                color: #E6E6E6;
+                font-weight:400;
+            }
+            span{
+                font-size: 12px;
+                color: #FFFFFF;
+                font-weight:normal;
+            }
+        }
+        .case-botton{
+            // text-align: center;
+            // width: 70px;
+            // height: 25px;
+            margin: 4px 13px 0;
+        }
+    }
+}
+

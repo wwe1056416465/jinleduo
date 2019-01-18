@@ -1,0 +1,253 @@
+html,body{
+  height: 100%;
+  width: 1440px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  // margin: 0 120px;
+  font-size: 14px;
+  font-weight:bold;
+  // overflow: hidden;
+}
+a {
+  // color: red;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+img {
+ /* 解决图片底部0.03rem的间隙 为了让图片的对齐方式和文本一致*/
+  vertical-align: middle;
+}
+i {
+  font-style: normal;
+}
+
+header, main,footer{
+  margin: 0 120px;
+}
+
+#header {
+  background-color: aqua;
+  height: 52px;
+  // float: right;
+  .cco {
+      float: right;
+      right: 0;
+      height: 52px;
+      display: flex;
+      .hd {
+          display: flex;
+      }
+      li {
+          list-style: none;
+          padding: 20px 12px;
+          a {
+              display: block;
+              font-size: 12px;
+              font-weight: normal;
+              height: 12px;
+              color: rgba(179, 179, 179, 1);
+          }
+      }
+  }
+}
+
+main{
+  #inquiry,#serve,#classroom,#custom,#advantage{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    .title {
+        text-align: center;
+        padding-top: 100px;
+        span {
+            width: 122px;
+            height: 29px;
+            font-size: 30px;
+            // font-family: SimHei;
+           
+            color: rgba(51, 51, 51, 1);
+        }
+        // i{ 注意的地方
+        //   line-height: 29px;
+        // }
+    }
+    
+  }
+
+  
+}
+// 页面详情
+#serve{
+  .info{
+    margin-top: 30px;
+    .row{
+      img{
+        height: 187px;
+        width: 100%;
+      }
+      .caption{
+        
+        h{
+        color: #2D2C2C;
+        }
+        p{
+          font-size: 12px;
+          color: #808080;
+        }
+        .da-pi{
+          display: flex;
+          justify-content:space-between;
+          .row-left{
+            color: #EC7A0C;
+            font-size: 16px;
+          }
+          .row-right{
+            a{
+              display: block;
+              color: #EC7A0C;
+              i{
+                color: #EC7A0C;
+              }
+            }
+          }
+      }
+    }
+    }
+  }
+}
+
+// 右浮窗
+#floating{
+        
+  border-radius: 70px 70px 0 0;
+  width: 94px;
+  height: 168px;
+
+  position: absolute;
+  background-color: #EC7A0C;
+  right: 0;
+  margin-right: -110px;
+  .case-top{
+      padding: 14px;
+      img{
+          width: 67px;
+          height: 67px;
+          border-radius: 50%;
+      }
+  }
+  .case-con{
+      text-align: center;
+      p{
+          font-size: 12px;
+          color: #E6E6E6;
+          font-weight:400;
+      }
+      span{
+          font-size: 12px;
+          color: #FFFFFF;
+          font-weight:normal;
+      }
+  }
+  .case-botton{
+      // text-align: center;
+      // width: 70px;
+      // height: 25px;
+      margin: 4px 13px 0;
+  }
+}
+
+
+#footer{
+  // margin-top: 50px;
+  // background-color: red;
+  width: 100%;
+  position: relative;
+  // background-color: #303030;
+  padding-bottom: 10px;
+  height: auto;
+}
+.footer_new .footer_info[data-v-094423ec] {
+  overflow: hidden;
+  padding: 51px 0 70px;
+  // border-bottom: 1px solid #4d4d4d;
+}
+.footer_new .footer_info .info_item[data-v-094423ec] {
+  float: left;
+  margin-right: 170px;
+}
+
+.footer_new .footer_info .info_item .item_title[data-v-094423ec] {
+  font-size: 24px;
+  color: #fff;
+}
+.footer_new .footer_info .info_item .item_list[data-v-094423ec] {
+  margin-top: 23px;
+}
+
+.footer_new .footer_info .info_item .item_time[data-v-094423ec] {
+  margin-top: 7px;
+  font-size: 24px;
+  color: #fff;
+  line-height: 25px;
+}
+// .footer_new .footer_info .info_item .item_list[data-v-094423ec] {
+//     margin-top: 23px;
+// }
+.item_date[data-v-094423ec] {
+  font-size: 16px;
+  // line-height: 32px;
+  color: #CCCCCC;
+  margin: 20px 0px 0px;
+}
+.footer_new .footer_info .info_item.min[data-v-094423ec] {
+  margin-right: 265px;
+}
+.footer_new .footer_info .info_item .item_list a[data-v-094423ec] {
+  display: block;
+  font-size: 14px;
+  color: #999;
+}
+.item_list a[data-v-094423ec] {
+  margin: 19px 0;
+}
+.footer_new .footer_info .info_item_wx[data-v-094423ec] {
+  margin-right: 0;
+  overflow: hidden;
+  .code[data-v-094423ec] {
+      margin-top: 10px;
+      margin-right: 10px;
+      float: right;
+      width: 69px;
+      height: 69px;
+  }
+  .item_moddel{
+      font-size: 16px;
+      color: #CCCCCC;
+  }
+  
+}
+
+
+.footer_new .footer_copyright[data-v-094423ec] {
+  width: 1100px;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  // padding: 30px 0 20px;
+  overflow: hidden;
+}
+.footer_new .footer_copyright .copyright[data-v-094423ec] {
+
+  text-align: right;
+}
+
+
+
+
+

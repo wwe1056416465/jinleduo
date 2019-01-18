@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- 添加视口 -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>金乐多分类查看</title>
+    <!-- 1. 为了实现屏幕适配在最上面先引入rem动态改变根元素字体大小的js -->
+    <script src="js/rem.js"></script>
+    <!-- 2. 引入bootstrap的css -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" />
+    <!-- 3. 引入字体图标的CSS文件 -->
+    <link rel="stylesheet" href="lib/fontAwesome/css/font-awesome.css" />
+    <!-- 4. 引入自己主页的less文件 注意rel="stylesheet/less" -->
+    <link rel="stylesheet/less" href="less/checkUp.less" />
+    <!-- 5. 引入less的编译器文件 -->
+    <script src="lib/less/less.js"></script>
+</head>
+
+<body>
+    <!-- 头部区域 -->
+    <header id="header">
+        <ul class="cco">
+            <li class="hd">
+                <div class="hd-left">
+                    <a href="#">登录</a>
+                </div>
+                <p>/</p>
+                <div class="hd-right">
+                    <a href="#">注册</a>
+                </div>
+            </li>
+            <li>
+                <a href="">个人中心</a>
+            </li>
+            <li>
+                <a href="#">联系中心</a>
+            </li>
+            <li>
+                <span class="glyphicon glyphicon-earphone" aria-hidden="true">咨询热线1269875072</span>
+            </li>
+        </ul>
+    </header>
+    <!-- 中间的主体区域 -->
+    <main id="main">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <!-- <span class="icon-bar"></span>
+                                          <span class="icon-bar"></span> -->
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">公司注册</a></li>
+                    <li><a href="#">商标注册</a></li>
+                    <li><a href="#">记账报税</a></li>
+                    <li><a href="#">极速代办</a></li>
+                    <li><a href="#">关于我们</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      <!-- 路径导航 -->
+      <section id="path">
+        <ol class="breadcrumb">
+          <li>当前位置:</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Library</a></li>
+          <li class="active">Data</li>
+        </ol>
+      </section>
+      <!-- 分类 -->
+      <section id="category">
+        <div class="search-top">
+          <input type="text" placeholder="输入关键字">
+          <i class="glyphicon glyphicon-search"></i>
+        </div>
+        <div class="search-botton">
+          <ul>
+            <li>一级类别:</li>
+            <li>工商登记</li>
+            <li>工商登记</li>
+            <li>工商登记</li>
+            <li>工商登记</li>
+            <li>工商登记</li>
+          </ul>
+          <ul style="margin-bottom: 30px;">
+              <li>一级类别:</li>
+              <li>工商登记</li>
+              <li>工商登记</li>
+              <li>工商登记</li>
+              <li>工商登记</li>
+              <li>工商登记</li>
+            </ul>
+        </div>
+      </section>
+      <!-- 详情 -->
+      <section id="serve">
+        <div class="info">
+            <div class="row">
+                <div class="col-xs-3">
+                    <div class="thumbnail">
+                        <img src="./img/c_06.jpg" alt="证照">
+                        <div class="caption">
+                            <h>食品经营许可证(流通类)</h>
+                            <p>预包装零售必备</p>
+                            <!-- <p><a href="#" class="btn btn-primary" role="button">$1000</a> <a href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-search"></i>  咨询</a></p> -->
+                            <div class="da-pi">
+                                <div class="row-left">$1000</div>
+                                <div class="row-right">
+                                    <a href="#"><i class="glyphicon glyphicon-search"></i> 咨询</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <div class="thumbnail">
+                        <img src="./img/c_06.jpg" alt="证照">
+                        <div class="caption">
+                            <h>食品经营许可证(流通类)</h>
+                            <p>预包装零售必备</p>
+                            <!-- <p><a href="#" class="btn btn-primary" role="button">$1000</a> <a href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-search"></i>  咨询</a></p> -->
+                            <div class="da-pi">
+                                <div class="row-left">$1000</div>
+                                <div class="row-right">
+                                    <a href="#"><i class="glyphicon glyphicon-search"></i> 咨询</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <div class="thumbnail">
+                        <img src="./img/c_06.jpg" alt="证照">
+                        <div class="caption">
+                            <h>食品经营许可证(流通类)</h>
+                            <p>预包装零售必备</p>
+                            <!-- <p><a href="#" class="btn btn-primary" role="button">$1000</a> <a href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-search"></i>  咨询</a></p> -->
+                            <div class="da-pi">
+                                <div class="row-left">$1000</div>
+                                <div class="row-right">
+                                    <a href="#"><i class="glyphicon glyphicon-search"></i> 咨询</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <div class="thumbnail">
+                        <img src="./img/c_06.jpg" alt="证照">
+                        <div class="caption">
+                            <h>食品经营许可证(流通类)</h>
+                            <p>预包装零售必备</p>
+                            <!-- <p><a href="#" class="btn btn-primary" role="button">$1000</a> <a href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-search"></i>  咨询</a></p> -->
+                            <div class="da-pi">
+                                <div class="row-left">$1000</div>
+                                <div class="row-right">
+                                    <a href="#"><i class="glyphicon glyphicon-search"></i> 咨询</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <div class="thumbnail">
+                        <img src="./img/c_06.jpg" alt="证照">
+                        <div class="caption">
+                            <h>食品经营许可证(流通类)</h>
+                            <p>预包装零售必备</p>
+                            <!-- <p><a href="#" class="btn btn-primary" role="button">$1000</a> <a href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-search"></i>  咨询</a></p> -->
+                            <div class="da-pi">
+                                <div class="row-left">$1000</div>
+                                <div class="row-right">
+                                    <a href="#"><i class="glyphicon glyphicon-search"></i> 咨询</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <div class="thumbnail">
+                        <img src="./img/c_06.jpg" alt="证照">
+                        <div class="caption">
+                            <h>食品经营许可证(流通类)</h>
+                            <p>预包装零售必备</p>
+                            <!-- <p><a href="#" class="btn btn-primary" role="button">$1000</a> <a href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-search"></i>  咨询</a></p> -->
+                            <div class="da-pi">
+                                <div class="row-left">$1000</div>
+                                <div class="row-right">
+                                    <a href="#"><i class="glyphicon glyphicon-search"></i> 咨询</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <div class="thumbnail">
+                        <img src="./img/c_06.jpg" alt="证照">
+                        <div class="caption">
+                            <h>食品经营许可证(流通类)</h>
+                            <p>预包装零售必备</p>
+                            <!-- <p><a href="#" class="btn btn-primary" role="button">$1000</a> <a href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-search"></i>  咨询</a></p> -->
+                            <div class="da-pi">
+                                <div class="row-left">$1000</div>
+                                <div class="row-right">
+                                    <a href="#"><i class="glyphicon glyphicon-search"></i> 咨询</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <div class="thumbnail">
+                        <img src="./img/c_06.jpg" alt="证照">
+                        <div class="caption">
+                            <h>食品经营许可证(流通类)</h>
+                            <p>预包装零售必备</p>
+                            <!-- <p><a href="#" class="btn btn-primary" role="button">$1000</a> <a href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-search"></i>  咨询</a></p> -->
+                            <div class="da-pi">
+                                <div class="row-left">$1000</div>
+                                <div class="row-right">
+                                    <a href="#"><i class="glyphicon glyphicon-search"></i> 咨询</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      </section>
+       <!-- 右浮窗 -->
+       <section id="floating">
+         <div class="case-top">
+            <img src="./img/c_06.jpg" alt="">
+        </div>
+        <div class="case-con">
+            <p style="margin:0">全国咨询热线</p>
+            <span>110120113</span>
+        </div>
+        <a href="#"><button class="case-botton">在线咨询</button></a>
+        
+        </section>
+        <!-- 分页 -->
+       <section aria-label="Page navigation">
+            <ul class="pagination">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+            
+        </section>
+    </main>
+    <!-- 底部区域 -->
+    
+    <footer data-v-094423ec="" class="footer_new" style="background-color: #303030;">
+            <div data-v-094423ec="" class="wrap">
+                <div data-v-094423ec="" class="footer_info clearfix">
+                    <div data-v-094423ec="" class="info_item">
+                        <p data-v-094423ec="" class="item_title">服务支持</p>
+                        <div data-v-094423ec="" class="item_list">
+                            <p
+                                data-v-094423ec=""
+                                class="item_time"
+                                style="margin: 20px 0px 0px;"
+                            >
+                                0755-22193786
+                            </p>
+                            <p data-v-094423ec="" class="item_date">
+                                周一至周五 &nbsp;8:00 ~ 20:00
+                            </p>
+                        </div>
+                        <div data-v-094423ec="" class="item_list">
+                            <p
+                                data-v-094423ec=""
+                                class="item_time"
+                                style="margin: 20px 0px 0px;"
+                            >
+                            <a data-v-094423ec="">lq@laiapps.com</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div data-v-094423ec="" class="info_item min">
+                        <p data-v-094423ec="" class="item_title">产品与服务</p>
+                        <div data-v-094423ec="" class="item_list">
+                            <a
+                                data-v-094423ec=""
+                                href="/aboutus"
+                                class=""
+                                target="_blank"
+                                ><a data-v-094423ec="">公司注册</a></a
+                            >
+                            <a
+                                data-v-094423ec=""
+                                href="https://www.lagou.com/gongsi/372497.html"
+                                target="_blank"
+                                >商标注册</a
+                            >
+                            <a
+                                data-v-094423ec=""
+                                href="/aboutus"
+                                class=""
+                                target="_blank"
+                                ><a data-v-094423ec="">记账报税</a></a
+                            >
+                        </div>
+                    </div>
+                    <div data-v-094423ec="" class="info_item min">
+                        <p data-v-094423ec="" class="item_title">关于我们</p>
+                        <div data-v-094423ec="" class="item_list">
+                            <a
+                                data-v-094423ec=""
+                                href="/editApp/home"
+                                class=""
+                                target="_blank"
+                                ><a data-v-094423ec="">企业介绍</a></a
+                            >
+                            <a
+                                data-v-094423ec=""
+                                href="/smartcard"
+                                class=""
+                                target="_blank"
+                                ><a data-v-094423ec="">联系我们</a></a
+                            >
+                        </div>
+                    </div>
+                    <div data-v-094423ec="" class="info_item info_item_wx">
+                        <p data-v-094423ec="" class="item_title">关注我们</p>
+                        <img
+                            data-v-094423ec=""
+                            src="data:image/jpeg;base64,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"
+                            alt="二维码"
+                            class="code"
+                        />
+                        <p class="item_moddel">微信公众号</p>
+                    </div>
+                </div>
+            </div>
+            <div data-v-094423ec="" class="footer_copyright">
+                <span data-v-094423ec="" class="copyleft">
+                    Copyright © 2008-2018 深圳市奇创网络科技有限公司
+                </span>
+                <a
+                    data-v-094423ec=""
+                    href="http://www.miitbeian.gov.cn/"
+                    target="_blank"
+                    class="copyright"
+                    style="color: rgb(153, 153, 153);"
+                >
+                    粤ICP备13068257号-1
+                </a>
+            </div>
+    </footer>
+    <!-- <!-- 1. 引入PC的jquery -->
+    <script src="lib/jquery/jquery.js"></script>
+    <!-- 2. 引入MUI的JS文件 -->
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <!-- 3. 引入模板引擎的JS文件 注意 引入template-web.js-->
+    <script src="lib/artTemplate/template-web.js"></script>
+    <!-- 4. 引入bootstrap的分页插件bootstrap-paginator  -->
+    <script src="lib/bootstrap/js/bootstrap-paginator.js"></script>
+    <!-- 4. 引入自己主页的js文件 -->
+    <script src="js/checkUp.js"></script>
+</body>
+
+</html>
